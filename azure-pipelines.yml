@@ -44,7 +44,7 @@ stages :
                   command: 'init'
                   backendServiceArm: 'tamopstf'
                   backendAzureRmResourceGroupName: 'tamopstf'
-                  backendAzureRmStorageAccountName: 'tamopstf'
+                  backendAzureRmStorageAccountName: 'tamopstf12345'
                   backendAzureRmContainerName: 'tfstatedevops'
                   backendAzureRmKey: 'terraform.tfstate'
               - task: TerraformTaskV1@0
