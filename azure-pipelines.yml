@@ -24,6 +24,7 @@ stages :
           provider: 'azurerm'
           command: 'validate'
   - stage: deploy
+    pool: test
     jobs:
     - deployment: deploy_terraform
       continueOnError: false
